@@ -12,6 +12,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <button >Descargar</button>
         <Descargar/>
         <a
           className="App-link"
