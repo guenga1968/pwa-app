@@ -12,7 +12,7 @@ export default function Descargar(){
         // Stash the event so it can be triggered later.
         window.deferredPrompt = event;
         // Remove the 'hidden' class from the install button container.
-        setIsReadyForInstall(true);
+        setIsReadyForInstall(false);
       });
     }, []);
     async function downloadApp() {
